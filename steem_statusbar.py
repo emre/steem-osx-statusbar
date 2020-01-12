@@ -3,9 +3,9 @@ import requests
 
 VERSION = "0.0.1"
 
-ABOUT_TEXT = "Version: %s Price is fetched from Coinmarketcap API with a 60 " \
-             "seconds interval. \n\nFor bug reports or feature requests see " \
-             "https://github.com/emre/steem-osx-statusbar. \n\n" \
+ABOUT_TEXT = "Version: %s. \n\nPrice is fetched from Coinmarketcap API with a" \
+             " 60 seconds interval. \n\nFor bug reports or feature requests " \
+             "see https://github.com/emre/steem-osx-statusbar. \n\n" \
              "Icon set: https://www.iconfinder.com/icons/4518815/steem_icon" % (
                  VERSION
              )
