@@ -17,7 +17,7 @@ class SteemStatusBarApp(rumps.App):
     def about(self, _):
         rumps.alert(ABOUT_TEXT)
 
-    @rumps.timer(5)
+    @rumps.timer(300)
     def update_info(self, _):
         r = requests.get(
             "https://api.coinmarketcap.com/v1/ticker/steem/").json()
