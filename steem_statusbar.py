@@ -1,7 +1,8 @@
 import rumps
 import requests
 
-VERSION = "0.0.1"
+VERSION = "0.0.2"
+
 
 ABOUT_TEXT = "Version: %s. \n\nPrice is fetched from Coinmarketcap API with a" \
              " five minutes interval. \n\nFor bug reports or feature requests " \
